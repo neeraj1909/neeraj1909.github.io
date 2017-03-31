@@ -79,9 +79,9 @@
   <p>Consider the correctness of insertion sort, which we introduced at the beginning of this chapter. The reason it is correct can be shown inductively:<br>
   <ul>
   <li>The basis case consists of a single element, and by definition a one-element array is completely sorted.</li>
-  <li>In general, we can assume that the first n - 1 elements of array A are completely sorted after n - 1 iterations of the insertion sort</li></p></h3>
-  <li>To insert one last element x to A, we find where it goes, namely the unique spot between the biggest element less than or equal to x and the smallest element greater than x. This is done by moving all the greater elements back by one position, creating room for x in the desired location.</li>
-  </ul>
+  <li>In general, we can assume that the first n - 1 elements of array A are completely sorted after n - 1 iterations of the insertion sort</li>
+    <li>To insert one last element x to A, we find where it goes, namely the unique spot between the biggest element less than or equal to x and the smallest element greater than x. This is done by moving all the greater elements back by one position, creating room for x in the desired location.</li>
+  </ul></p></h3>
 <p>One must be suspicious of inductive proofs, however, because very subtle reasoning errors can creep in. The first are boundary errors. For example, our insertion sort corectness proof above boldly stated that there was a unique place to insert x between two elements, when our basis case was a single-element array. Greater care is needed to properly deal with the special cases of inserting the minimum or maximum elements.</p>
 <p> The second and more common class of inductive proof errors concerns cavallier extension claims. Adding one extra item to a given problem instance might cause the entire optimal solution to change. This was the case in our scheduling problem. The optimal schedule after inserting a new segment may contain none of the segments of any particula
         </body>
