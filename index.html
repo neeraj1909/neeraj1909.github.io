@@ -1,89 +1,514 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Playing.with.Code</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+
+    <title>Neeraj Kumar Singh - Resume and CV</title>
+
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <!-- Custom styles -->
-    <link href="/css/style.css" rel="stylesheet">
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Font Awesome JS -->
+    <script defer src="js/fontawesome-all.min.js"></script>
+    <style type="text/css">
+      .card{
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.4s;
+      }
+      .card:hover{
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+      }
+      .carousel-indicators {
+        bottom: 0;
+      }
+      .carousel-indicators li {
+        background-color: #868e96;
+        cursor: pointer;
+      }
+      .carousel-indicators .active {
+        background-color: #0099CC;
+      }
+    </style>
+
   </head>
-  <body>
-    <!-- Fixed navbar -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Playing.with.Code</a>
+  <body class="bg-light">
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col-12 col-lg-8">
+          <div class="card mb-4">
+            <h2 class="card-header bg-info text-center text-white">Neeraj Kumar Singh</h2>
+            <img src="img/neeraj.jpg" alt="Portrait of Firstname Lastname" class="rounded-circle border border-info mx-auto d-block mt-3">
+            <div class="card-body">
+              <blockquote class="blockquote text-center w-75 mx-auto">
+                <p class="card-text lead">As an ambitious and hardworking individual, I would like to work in a challenging environment.</p>
+                <footer class="blockquote-footer">Neeraj Kumar Singh</footer>
+              </blockquote>
+            </div>
+          </div>
+          <!-- <div class="card mb-4">
+            <h2 class="card-header text-center text-white bg-info">Education</h2>
+            <div class="card-body">
+               <div class="media mb-2">
+                <i class="fas fa-university fa-3x fa-fw mr-2 text-info"></i>
+                <div class="media-body">
+                  <h3 class="h4 mb-1">Bachelor of Technology in Computer Science and Engineering</h3>
+                  <div class="d-sm-flex justify-content-sm-between align-items-sm-baseline"><h5 class="mb-0"><a href="http://www.bietjhs.ac.in" class="text-info" target="_blank">BIET, Jhansi</a></h5> <small class="d-block text-uppercase font-weight-bold text-muted"><time datetime="2015-07">July 2015</time> &ndash; <time datetime="2019-05">May 2019</time></small></div>
+                </div>
+              </div>
+              <hr>
+              <div class="media mb-2">
+                <i class="fas fa-university fa-3x fa-fw mr-2 text-info"></i>
+                <div class="media-body">
+                  <h3 class="h4 mb-1">Intermediate</h3>
+                  <div class="d-sm-flex justify-content-sm-between align-items-sm-baseline"><h5 class="mb-0"><a href="http://www.nagajimaldepur.com/" class="text-info" target="_blank">Nagaji Saraswati Vidya Mandir, Maldepur, Ballia</a></h5> <small class="d-block text-uppercase font-weight-bold text-muted"><time datetime="2013-04">April 2013</time> &ndash; <time datetime="2014-03">March 2014</time></small></div>
+                  <p class="card-text badge badge-info">Percentage: 86.2</p>
+                </div>
+              </div>
+              <hr>
+              <div class="media mb-2">
+                <i class="fas fa-university fa-3x fa-fw mr-2 text-info"></i>
+                <div class="media-body">
+                  <h3 class="h4 mb-1">High School</h3>
+                  <div class="d-sm-flex justify-content-sm-between align-items-sm-baseline"><h5 class="mb-0"><a href="http://www.nagajimaldepur.com/" class="text-info" target="_blank">Nagaji Saraswati Vidya Mandir, Maldepur, Ballia</a></h5> <small class="d-block text-uppercase font-weight-bold text-muted"><time datetime="2011-04">April 2011</time> &ndash; <time datetime="2012-03">March 2012</time></small></div>
+                  <p class="card-text badge badge-info">CGPA: 10.0</p>
+                </div>
+              </div>
+            </div>
+          </div> -->
+          <!-- <div class="card mb-4">
+            <h2 class="card-header text-center text-white bg-info">Personal Projects</h2>
+            <div class="card-body">
+              <div class="media mb-2">
+                <i class="fab fa-github fa-3x fa-fw mr-2 text-info"></i>
+                <div class="media-body">
+                  <h3 class="h4 mb-1">Quiz-App Web Project</h3>
+                  <div class="d-sm-flex justify-content-sm-between align-items-sm-baseline"><h5 class="mb-0"><a href="https://github.com/neeraj1909/quiz" class="text-info" target="_blank">Quiz-App: Github</a></h5> <small class="d-block text-uppercase font-weight-bold text-muted"><time datetime="2018-02">February 2018</time> &ndash; <time datetime="2018">Present</time></small></div>
+                  <button type="button button-inline" class="btn btn-info mt-2" data-toggle="modal" data-target="#QuizApp">Screenshots</button>
+                  <div class="modal fade" id="QuizApp" tabindex="-1" role="dialog" aria-labelledby="modalLargeTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="modalLargeTitle">Quiz-App Web Project</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="http://placehold.it/600x400" alt="Responsive image" class="img-fluid d-block mx-auto rounded">
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p class="card-text">It's a django based quiz website project which conducts quizzes</p>
+              <p><hr></p>
+              <div class="media mb-2">
+                <i class="fab fa-github fa-3x fa-fw mr-2 text-info"></i>
+                <div class="media-body">
+                  <h3 class="h4 mb-1">Resume and CV page</h3>
+                  <div class="d-sm-flex justify-content-sm-between align-items-sm-baseline"><h5 class="mb-0"><a href="https://neeraj1909.github.io/" class="text-info" target="_blank">Resume - Neeraj Kumar Singh</a></h5> <small class="d-block text-uppercase font-weight-bold text-muted"><time datetime="2018-03">March 2018</time></small></div>
+                  <button type="button button-inline" class="btn btn-info mt-2" data-toggle="modal" data-target="#ResumeAndCV">Screenshots</button>
+                  <div class="modal fade" id="ResumeAndCV" tabindex="-1" role="dialog" aria-labelledby="modalLargeTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="modalLargeTitle">Neeraj Kumar Singh - Resume and CV</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="img/ResumeAndCV/Screenshot1.png" alt="Responsive image" class="img-fluid d-block mx-auto rounded">
+                          <p><hr></p>
+                          <img src="img/ResumeAndCV/Screenshot2.png" alt="Responsive image" class="img-fluid d-block mx-auto rounded">
+                          <p><hr></p>
+                          <img src="img/ResumeAndCV/Screenshot3.png" alt="Responsive image" class="img-fluid d-block mx-auto rounded">
+                          <p><hr></p>
+                          <img src="img/ResumeAndCV/Screenshot4.png" alt="Responsive image" class="img-fluid d-block mx-auto rounded">
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p class="card-text">It's a simple Resume and CV page designed using Bootstrap4</p>
+              <p><hr></p>
+              <div class="media mb-2">
+                <i class="fab fa-github fa-3x fa-fw mr-2 text-info"></i>
+                <div class="media-body">
+                  <h3 class="h4 mb-1">Online Forum</h3>
+                  <div class="d-sm-flex justify-content-sm-between align-items-sm-baseline"><h5 class="mb-0"><a href="https://github.com/neeraj1909/Udemy/tree/master/bootstrap_4_responsive_web_design_and_developement/projects/create_an_online_forum" class="text-info" target="_blank">Online Forum: Github</a></h5> <small class="d-block text-uppercase font-weight-bold text-muted"><time datetime="2017-12">December 2017</time></small></div>
+                  <button type="button button-inline" class="btn btn-info mt-2" data-toggle="modal" data-target="#OnlineForum">Screenshots</button>
+                  <div class="modal fade" id="OnlineForum" tabindex="-1" role="dialog" aria-labelledby="modalLargeTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="modalLargeTitle">Online Forum - Front-end project</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="img/OnlineForum/Screenshot1.png" alt="Responsive image" class="img-fluid d-block mx-auto rounded">
+                          <p><hr></p>
+                          <img src="img/OnlineForum/Screenshot2.png" alt="Responsive image" class="img-fluid d-block mx-auto rounded">
+                          <p><hr></p>
+                          <img src="img/OnlineForum/Screenshot3.png" alt="Responsive image" class="img-fluid d-block mx-auto rounded">
+                          <p><hr></p>
+                          <img src="img/OnlineForum/Screenshot4.png" alt="Responsive image" class="img-fluid d-block mx-auto rounded">
+                          <p><hr></p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p class="card-text">It's an Online Forum front-end project designed using Bootstrap4</p>
+              <p><hr></p>
+              <div class="collapse" id="collapse-work">
+                <div class="media mb-2">
+                  <i class="fab fa-github fa-fw fa-3x mr-2 text-info"></i>
+                  <div class="media-body">
+                    <h3 class="h4 mb-1">Camera App landing-page</h3>
+                    <div class="d-sm-flex justify-content-sm-between align-items-sm-baseline"><h5 class="mb-0"><a href="https://github.com/neeraj1909/Udemy/tree/master/bootstrap_4_responsive_web_design_and_developement/projects/creating_a_landing_page" class="text-info" target="_blank">Camera App: Github</a></h5> <small class="d-block text-uppercase font-weight-bold text-muted"><time datetime="2017-12">December 2017</time></small></div>
+                    <button type="button button-inline" class="btn btn-info mt-2" data-toggle="modal" data-target="#CameraAppLandingPage">Screenshots</button>
+                  <div class="modal fade" id="CameraAppLandingPage" tabindex="-1" role="dialog" aria-labelledby="modalLargeTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="modalLargeTitle">Camera App landing page Front-end project</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="img/CameraAppLandingPage/Screenshot1.png" alt="Responsive image" class="img-fluid d-block mx-auto rounded">
+                          <p><hr></p>
+                          <img src="img/CameraAppLandingPage/Screenshot2.png" alt="Responsive image" class="img-fluid d-block mx-auto rounded">
+                          <p><hr></p>
+                          <img src="img/CameraAppLandingPage/Screenshot3.png" alt="Responsive image" class="img-fluid d-block mx-auto rounded">
+                          <p><hr></p>
+                          <img src="img/CameraAppLandingPage/Screenshot4.png" alt="Responsive image" class="img-fluid d-block mx-auto rounded">
+                          <p><hr></p>
+                          <img src="img/CameraAppLandingPage/Screenshot5.png" alt="Responsive image" class="img-fluid d-block mx-auto rounded">
+                          <p><hr></p>
+                          <img src="img/CameraAppLandingPage/Screenshot6.png" alt="Responsive image" class="img-fluid d-block mx-auto rounded">
+                          <p><hr></p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+                </div>
+                <p class="card-text">Camera App landing page using Bootstrap4</p>
+                <hr>
+              </div>
+              <button type="button" class="btn btn-sm btn-outline-info" data-toggle="collapse" data-target="#collapse-work" aria-expanded="false" aria-controls="collapse-work">Show all</button>
+            </div>
+          </div> -->
+          <!-- <div class="card mb-4">
+            <h2 class="card-header text-center text-white bg-info">Certificates</h2>
+            <div class="card-body">
+              <div class="media mb-2">
+                <div class="fa-layers fa-fw fa-3x mr-2 text-info">
+                  <i class="fas fa-certificate"></i>
+                  <i class="fas fa-graduation-cap text-white" data-fa-transform="shrink-8"></i>
+                </div>
+                <div class="media-body">
+                  <h3 class="h4 mb-1">Akshay Urja Diwas-2007</h3>
+                  <div class="d-sm-flex justify-content-sm-between align-items-sm-baseline"><h5 class="mb-0"><a href="http://mnre.gov.in/" class="text-info" target="_blank">Ministry for New & Renewable Energy Sources, Govt. of India</a></h5> <small class="d-block text-uppercase font-weight-bold text-muted"><time datetime="2007-08">August 2007</time></small></div>
+                </div>
+              </div>
+              <p class="card-text">Certificate of Third Position in Eassy Competition organised by Ministry for New & Renewable Energy Sources, Govt. of India.</p>
+              <hr>
+              <div class="media mb-2">
+                <div class="fa-layers fa-fw fa-3x mr-2 text-info">
+                  <i class="fas fa-certificate"></i>
+                  <i class="fas fa-graduation-cap text-white" data-fa-transform="shrink-8"></i>
+                </div>
+                <div class="media-body">
+                  <h3 class="h4 mb-1">Regional Knowledge Science Fair-2012</h3>
+                  <div class="d-sm-flex justify-content-sm-between align-items-sm-baseline"><h5 class="mb-0"><a href="http://www.nagajimaldepur.com/" class="text-info" target="_blank">Nagaji Saraswati Vidya Mandir, Maldepur, Ballia</a></h5> <small class="d-block text-uppercase font-weight-bold text-muted"><time datetime="2012-10">OCTOBER 2012</time></small></div>
+                </div>
+              </div>
+              <p class="card-text">Certificate of "First Prize in Science Quiz"</p>
+              <hr>
+              <div class="media mb-2">
+                <div class="fa-layers fa-fw fa-3x mr-2 text-info">
+                  <i class="fas fa-certificate"></i>
+                  <i class="fas fa-graduation-cap text-white" data-fa-transform="shrink-8"></i>
+                </div>
+                <div class="media-body">
+                  <h3 class="h4 mb-1">Regional Knowledge Science Fair-2013</h3>
+                  <div class="d-sm-flex justify-content-sm-between align-items-sm-baseline"><h5 class="mb-0"><a href="http://www.nagajimaldepur.com/" class="text-info" target="_blank">Nagaji Saraswati Vidya Mandir, Maldepur, Ballia</a></h5> <small class="d-block text-uppercase font-weight-bold text-muted"><time datetime="2013-10">OCTOBER 2013</time></small></div>
+                </div>
+              </div>
+              <p class="card-text">Certificate of "First Prize in Science Quiz"</p>
+              <hr>
+              <div class="collapse" id="collapse-certificate">
+                <div class="media mb-2">
+                  <div class="fa-layers fa-fw fa-3x mr-2 text-info">
+                  <i class="fas fa-certificate"></i>
+                  <i class="fas fa-graduation-cap text-white" data-fa-transform="shrink-8"></i>
+                </div>
+                  <div class="media-body">
+                    <h3 class="h4 mb-1">First Position in class 10th</h3>
+                    <div class="d-sm-flex justify-content-sm-between align-items-sm-baseline"><h5 class="mb-0"><a href="http://www.nagajimaldepur.com/" class="text-info" target="_blank">Nagaji Saraswati Vidya Mandir, Maldepur, Ballia</a></h5> <small class="d-block text-uppercase font-weight-bold text-muted"><time datetime="2012-05">May 2012</time></small></div>
+                  </div>
+                </div>
+                <p class="card-text">Certificate of "First Position in class 10th" in school. </p>
+                <hr>
+              </div>
+              <button type="button" class="btn btn-sm btn-outline-info" data-toggle="collapse" data-target="#collapse-certificate" aria-expanded="false" aria-controls="collapse-certificate">Show all</button>
+            </div>
+          </div> -->
+          <!-- <div class="card mb-4"> -->
+          <!--   <h2 class="card-header text-center text-white bg-info">Testimonials</h2>
+            <div class="card-body">
+              <div id="carousel" class="carousel slide" data-ride="false">
+                <ol class="carousel-indicators mb-0">
+                  <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel" data-slide-to="1"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <blockquote class="blockquote text-center d-flex flex-column justify-content-center">
+                      <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in ipsum porttitor, tempor risus eget, finibus enim.</p>
+                      <footer class="blockquote-footer">Firstname Lastname</footer>
+                    </blockquote>
+                  </div>
+                  <div class="carousel-item">
+                    <blockquote class="blockquote text-center d-flex flex-column justify-content-center">
+                      <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in ipsum porttitor, tempor risus eget, finibus enim. Morbi porta ligula elit, at eleifend tellus tincidunt sit amet. Nunc ex ligula, rutrum vel lorem vel, auctor placerat mi.</p>
+                      <footer class="blockquote-footer">Firstname Lastname</footer>
+                    </blockquote>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> -->
         </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li role="separator" class="divider"></li>
-                <li class="dropdown-header">Nav header</li>
-                <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a></li>
+        <div class="col-12 col-lg-4">
+          <!-- <div class="card mb-4">
+            <h2 class="card-header text-center text-white bg-info">Contact info</h2>
+            <div class="card-body">
+              <div class="media">
+                <div class="fa-layers fa-fw fa-2x mr-3 text-info">
+                  <i class="fas fa-circle"></i>
+                  <i class="fas fa-male text-white" data-fa-transform="shrink-5"></i>
+                </div>
+                <div class="media-body">
+                  Neeraj Kumar Singh
+                  <hr>
+                </div>
+              </div>
+              <div class="media">
+                <div class="fa-layers fa-fw fa-2x mr-3 text-info">
+                  <i class="fas fa-circle"></i>
+                  <i class="fas fa-calendar-alt text-white" data-fa-transform="shrink-8"></i>
+                </div>
+                <div class="media-body">
+                  <time datetime="1997-09-15">15th of September 1997</time>
+                  <hr>
+                </div>
+              </div>
+              <div class="media">
+                <div class="fa-layers fa-fw fa-2x mr-3 text-info">
+                  <i class="fas fa-circle"></i>
+                  <i class="fas fa-phone text-white" data-fa-transform="shrink-8"></i>
+                </div>
+                <ul class="media-body list-unstyled">
+                  <li><i class="fas fa-fw fa-phone text-muted"></i><a href="tel:+917839246594" class="text-info"> (+91) 7839246594</a></li>
+                  <li><i class="fab fa-fw fa-skype text-muted"></i> <a href="#0" class="text-info">neeraj1909@gmail.com</a></li>
+                  <li><i class="fab fa-fw fa-telegram text-muted"></i> <a href="https://t.me/neeraj1909" class="text-info" target="_blank">@neeraj1909</a></li>
+                  <li><hr></li>
+                </ul>
+              </div>
+              <div class="media">
+                <div class="fa-layers fa-fw fa-2x mr-3 text-info">
+                  <i class="fas fa-circle"></i>
+                  <i class="fas fa-envelope text-white" data-fa-transform="shrink-8"></i>
+                </div>
+                <ul class="media-body list-unstyled">
+                  <li><i class="far fa-fw fa-envelope text-muted"></i><a href="mailto:neeraj1909@gmail.com" class="text-info" target="_blank"> neeraj1909@gmail.com</a></li>
+                  <li><i class="fab fa-fw fa-linkedin text-muted"></i> <a href="https://www.linkedin.com/in/neeraj1909/" class="text-info" target="_blank">neeraj1909</a></li>
+                  <li><i class="fab fa-fw fa-twitter text-muted"></i> <a href="https://twitter.com/Neerajkrsgh" class="text-info" target="_blank">@neeraj1909</a></li>
+                  <li><hr></li>
+                </ul>
+              </div>
+              <div class="media">
+                <div class="fa-layers fa-fw fa-2x mr-3 text-info">
+                  <i class="fas fa-circle"></i>
+                  <i class="fas fa-home text-white" data-fa-transform="shrink-8"></i>
+                </div>
+                <div class="media-body">
+                  <address class="mb-0">
+                    F-01 Panchavati Bhavan<br>
+                    BIET, Jhansi<br>
+                    PIN: 284128<br>
+                    Uttar Pradesh, India
+                  </address>
+                  <hr>
+                </div>
+              </div>
+              <div class="media">
+                <div class="fa-layers fa-fw fa-2x mr-3 text-info">
+                  <i class="fas fa-circle"></i>
+                  <i class="fas fa-at text-white" data-fa-transform="shrink-8"></i>
+                </div>
+                <div class="media-body">
+                  <form action="https://formspree.io/akashgiricse@gmail.com" method="POST">
+                    <div class="form-group">
+                      <div class="input-group input-group-sm">
+                        <span class="input-group-addon" id="name">Name:</span>
+                        <input type="text" class="form-control" name="name" placeholder="Your name here" aria-label="Your name" aria-describedby="name" required>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="input-group input-group-sm">
+                        <span class="input-group-addon" id="email">Email:</span>
+                        <input type="email" class="form-control" name="email" placeholder="Your email here" aria-label="Your email" aria-describedby="email" required>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="input-group input-group-sm">
+                        <span class="input-group-addon" id="message"><i class="fas fa-pencil-alt"></i></span>
+                        <textarea class="form-control" name="message" placeholder="Your message here" aria-label="Your message" aria-describedby="message" rows="3"></textarea>
+                      </div>
+                    </div>
+                    <button type="submit" class="btn btn-sm btn-info">Send message</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div> -->
+          <!-- <div class="card mb-4">
+            <h2 class="card-header text-center text-white bg-info">Portfolio</h2>
+            <div class="card-body">
+              <div class="media">
+                <div class="fa-layers fa-fw fa-2x mr-3 text-info">
+                  <i class="fas fa-circle"></i>
+                  <i class="fas fa-code text-white" data-fa-transform="shrink-8"></i>
+                </div>
+                <ul class="media-body list-unstyled">
+                  <li><i class="fab fa-fw fa-github text-muted"></i> <a href="https://github.com/neeraj1909" class="text-info" target="_blank">GitHub</a></li>
+                  <li><i class="fab fa-fw fa-stack-overflow text-muted"></i> <a href="https://stackoverflow.com/users/7971878/neeraj-singh" class="text-info" target="_blank">Stack Overflow</a></li>
+                  <li><i class="fab fa-fw fa-free-code-camp text-muted"></i><a href="https://www.freecodecamp.org/neeraj1909" class="text-info" target="_blank"> freeCodeCamp</a></li>
+                  <li><hr></li>
+                </ul>
+              </div>
+              <div class="media">
+                <div class="fa-layers fa-fw fa-2x mr-3 text-info">
+                  <i class="fas fa-circle"></i>
+                  <i class="fas fa-pencil-alt text-white" data-fa-transform="shrink-8"></i>
+                </div>
+                <ul class="media-body list-unstyled">
+                  <li><i class="fab fa-fw fa-quora text-muted"></i> <a href="https://www.quora.com/profile/Neeraj-Kumar-Singh-53" class="text-info" target="_blank">Quora</a></li>
+                </ul>
+              </div>
+            </div>
+          </div> -->
+          <!-- <div class="card mb-4">
+            <h2 class="card-header text-center text-white bg-info">Skills</h2>
+            <div class="card-body">
+              <div class="mb-3">
+                <h3 class="h5 mb-3">Coding Languages</h3>
+                <h4 class="h6 text-muted"><i class="fab fa-fw fa-python"></i> Python</h4>
+                <div class="progress mb-3">
+                  <div class="progress-bar bg-info w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <h4 class="h6 text-muted"><i class="fas fa-fw fa-code"></i> C</h4>
+                <div class="progress mb-3">
+                  <div class="progress-bar bg-info w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                 <h4 class="h6 text-muted"><i class="fas fa-fw fa-code"></i> Bootstrap4</h4>
+                <div class="progress mb-3">
+                  <div class="progress-bar bg-info w-100" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <h4 class="h6 text-muted"><i class="fab fa-fw fa-html5"></i> HTML5</h4>
+                <div class="progress mb-3">
+                  <div class="progress-bar bg-info w-100" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <h4 class="h6 text-muted"><i class="fab fa-fw fa-css3"></i> CSS3</h4>
+                <div class="progress mb-3">
+                  <div class="progress-bar bg-info w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <h4 class="h6 text-muted"><i class="fab fa-fw fa-linux"></i> Linux System Administration</h4>
+                <div class="progress mb-3">
+                  <div class="progress-bar bg-info w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="mb-3">
+                <h3 class="h5 mb-3">Back-End Frameworks</h3>
+                <h4 class="h6 text-muted"><i class="fab fa-fw fa-python"></i> Django</h4>
+                <div class="progress mb-3">
+                  <div class="progress-bar bg-info w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+            </div>
+          </div> -->
+          <!-- <div class="card mb-4">
+            <h2 class="card-header text-center text-white bg-info">Language know</h2>
+            <div class="card-body">
+              <h4 class="h6 text-muted"><i class="fas fa-fw fa-language"></i> English</h4>
+              <div class="progress mb-3">
+                <div class="progress-bar bg-info w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <h4 class="h6 text-muted"><i class="fas fa-fw fa-language"></i> Hindi</h4>
+              <div class="progress mb-3">
+                <div class="progress-bar bg-info w-100" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div> -->
+          <!-- <div class="card mb-4 text-center">
+            <h2 class="card-header text-center text-white bg-info">Interests</h2>
+            <div class="card-body">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item"><button type="button" class="btn btn-info"><a href="https://en.wikipedia.org/wiki/Computer_programming" class="text-white" target="_blank"> Computer Programming</a></button></li>
+                <li class="list-group-item"><button type="button" class="btn btn-info"><a href="https://en.wikipedia.org/wiki/Web_development" class="text-white" target="_blank"> Web Development</a></button></li>
+                <li class="list-group-item"><button type="button" class="btn btn-info"><a href="https://en.wikipedia.org/wiki/Algorithm" class="text-white" target="_blank"> Algorithms</a></button></li>
+                <li class="list-group-item"><button type="button" class="btn btn-info"><a href="https://en.wikipedia.org/wiki/Machine_learning" class="text-white" target="_blank"> Machine Learning</a></button></li>
+                <li class="list-group-item"><button type="button" class="btn btn-info"><a href="https://en.wikipedia.org/wiki/Portal:Mathematics" class="text-white" target="_blank"> Maths</a></button></li>
               </ul>
-            </li>
-          </ul>
+            </div>
+          </div> -->
+          <!-- <div class="text-center">
+            <a class="btn btn-lg btn-info" role="button" href="resume/AkashGiri_Resume.pdf" download="AkashGiri_Resume.pdf">
+              <i class="fas fa-fw fa-download"></i> Download my resume
+              <i class="far fa-fw fa-file-pdf"></i>
+            </a>
+          </div> -->
         </div>
-        <!--/.nav-collapse -->
       </div>
-    </nav>
-    <div class="container">
-      <div class="jumbotron">
-        <h1>
-        Welcome to Playing.with.Code!
-        <h1>
-      </div>
-      will be uploaded soon!
     </div>
-    <footer class="footer">
-      <div class="container">
-        <p class="text-muted">&copy; Copyright | Neeraj Kumar Singh | <a href="https://github.com/neeraj1909">https://github.com/neeraj1909</a></p>
+    <p><hr></p>
+    <footer class="bg-light text-muted">
+      <div class="container py-2">
+        <ul class="list-inline mb-0 text-center">
+          <li class="list-inline-item">&copy; 2018 Neeraj Kumar Singh. </li>
+          <li class="list-inline-item">All rights reserved.</li>
+        </ul>
       </div>
     </footer>
-    <!-- jQuery -->
-    <script src="//code.jquery.com/jquery.js"></script>
-    <!-- Bootstrap JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-  <h1 align="center" >1.3.4  Induction and Recursion</h1>
-<img src="data:image/jpeg;base64,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" alt="Steven S. Skiena">
-<hr width = "50%" align="center"/>
-<h3><p>Failure to find a counter example to a given algorithm does not mean "it is obvious" that the algorithm is correct. A proof or demonstration of correctness is needed. Often mathematical induction is the method of choice.</p> 
-  <p>When I first learned about <strong> style mathematical induction </strong>it seemed like complete magic. You proved a formula for some basic case like 1 or 2, then assumed it was true all the way to n-1 before proving it was true for general n using the assumption. That was a proof? Ridiculous!.</p> 
-  <a href="https://github.com/neeraj1909"></a> 
-  <p>When I first learned the programming technique of recursion it also seemed like complete magic. The program tested whether the input argument was some basic like 1 or 2. If not, you solved the bigger case by breaking it into pieces and calling the subprogram itself to solve these pieces. The initial or boundary condition terminates the recusion. Once you understand either recursion or induction, you should be able to see why the other one also works.</p> 
-  <p>I've heard it said that a computer scientist is a mathematician who only knows how to prove things by induction. This is partially true because the computer scientists are lousy at proving things, but primarily because so many of the algorithms we study are either recursive or incremental.</p>
-  <p>Consider the correctness of insertion sort, which we introduced at the beginning of this chapter. The reason it is correct can be shown inductively:</p></h3> 
-  <ul>
-  <li>The basis case consists of a single element, and by definition a one-element array is completely sorted.</li>
-  <li>In general, we can assume that the first n - 1 elements of array A are completely sorted after n - 1 iterations of the insertion sort</li> 
-  <li>To insert one last element x to A, we find where it goes, namely the unique spot between the biggest element less than or equal to x and the smallest element greater than x. This is done by moving all the greater elements back by one position, creating room for x in the desired location.</li>
-  </ul> 
-<h4><p> 
-One must be suspicious of inductive proofs, however, because very subtle reasoning errors can creep in. The first are boundary errors. For example, our insertion sort corectness proof above boldly stated that there was a unique place to insert x between two elements, when our basis case was a single-element array. Greater care is needed to properly deal with the special cases of inserting the minimum or maximum elements.</p>
-<p> The second and more common class of inductive proof errors concerns cavallier extension claims. Adding one extra item to a given problem instance might cause the entire optimal solution to change. This was the case in our scheduling problem. The optimal schedule after inserting a new segment may contain none of the segments of any particular.....</p></h4>
-        </body>
+    <!-- jQuery first, then Bootstrap JS -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
