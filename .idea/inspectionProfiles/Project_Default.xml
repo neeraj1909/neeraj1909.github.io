@@ -1,0 +1,66 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyCompatibilityInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ourVersions">
+        <value>
+          <list size="2">
+            <item index="0" class="java.lang.String" itemvalue="2.7" />
+            <item index="1" class="java.lang.String" itemvalue="3.8" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E501" />
+          <option value="W292" />
+          <option value="W191" />
+          <option value="E305" />
+          <option value="E262" />
+          <option value="E225" />
+          <option value="E303" />
+          <option value="E302" />
+          <option value="W605" />
+          <option value="E101" />
+          <option value="E231" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N801" />
+          <option value="N802" />
+          <option value="N806" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyTypeCheckerInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="implementation.dlnet.__neg__" />
+          <option value="mnsit.nImg" />
+          <option value="mnsit.imagesfile" />
+          <option value="idx2ndarray.file_name" />
+          <option value="mnist_data_set.train_labels" />
+          <option value="mnist_data_set.i" />
+          <option value="tensorflow.Session" />
+          <option value="tensorflow.placeholder" />
+          <option value="tensorflow.truncated_normal" />
+          <option value="tensorflow_core._api.v2.train.RMSPropOptimizer" />
+          <option value="tensorflow.arg_max" />
+          <option value="tensorflow.global_variables_initializer" />
+          <option value="tensorflow_core._api.v2.train.Saver" />
+          <option value="helper" />
+          <option value="keras.utils.to_categorical" />
+          <option value="tensorflow.python.ops.nn.softmax_cross_entropy_with_logits_v2" />
+          <option value="resnet.main.NUM_CLASSES" />
+          <option value="resnet.main.y_train" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
