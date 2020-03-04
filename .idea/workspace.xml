@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16b453d0-085c-480c-bd4c-cc56c7d718e3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +21,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../openSource/django-paytm-payment" />
   </component>
@@ -41,9 +43,9 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1582917069138" />
-    <state x="616" y="366" key="com.intellij.ide.util.TipDialog" timestamp="1583325794566">
+    <state x="616" y="366" key="com.intellij.ide.util.TipDialog" timestamp="1583329459717">
       <screen x="80" y="0" width="1840" height="1080" />
     </state>
-    <state x="616" y="366" key="com.intellij.ide.util.TipDialog/80.0.1840.1080/13.1080.1920.1080@80.0.1840.1080" timestamp="1583325794566" />
+    <state x="616" y="366" key="com.intellij.ide.util.TipDialog/80.0.1840.1080/13.1080.1920.1080@80.0.1840.1080" timestamp="1583329459717" />
   </component>
 </project>
