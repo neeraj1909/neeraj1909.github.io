@@ -85,6 +85,7 @@ const navigation = [
   { id: "research", label: "Research" },
   { id: "writing", label: "Writing" },
   { id: "experience", label: "Experience" },
+  { id: "education", label: "Education" },
   { id: "contact", label: "Contact" },
 ];
 
@@ -260,22 +261,50 @@ export default function Home() {
         </section>
 
         <section id="experience" className="mt-12 rounded-3xl bg-white p-8 ring-1 ring-slate-200">
-          <h2 className="text-2xl font-bold">Experience and Education</h2>
+          <h2 className="text-2xl font-bold">Experience</h2>
           <div className="mt-6 grid gap-6 md:grid-cols-2">
             <article>
-              <h3 className="text-lg font-semibold">Intern, Jeevaniya Naturals Pvt. Ltd.</h3>
-              <p className="text-sm text-slate-600">June 2018 - September 2018</p>
+              <h3 className="text-lg font-semibold">Research Scientist, Lexsi AI</h3>
+              <p className="text-sm text-slate-600">April 2024 - Present</p>
               <p className="mt-3 text-sm leading-6 text-slate-700">
-                Delivered backend features in Python/Django, integrated PayTM payments, and
-                improved ecommerce transaction workflows in a production-oriented setting.
+                Shipped DLBacktrace v2 for explainability across tabular, vision, NLP, and LLM
+                workloads; expanded transformer and MoE support, and improved inference efficiency
+                through relevance quantization and optimized tracing pipelines.
               </p>
             </article>
             <article>
-              <h3 className="text-lg font-semibold">M.Tech, Computer Science - ISI Kolkata</h3>
-              <p className="text-sm text-slate-600">Started July 2019</p>
+              <h3 className="text-lg font-semibold">
+                Research Assistant (NLP Lab), CVPR Unit, Indian Statistical Institute
+              </h3>
+              <p className="text-sm text-slate-600">September 2021 - February 2024</p>
               <p className="mt-3 text-sm leading-6 text-slate-700">
-                Developed machine learning foundations and practical deep learning
-                implementations across core architectures.
+                Contributed to TrustED for trustworthiness evaluation in deep learning; developed
+                explainable Indic hate speech detection and worked on an IC50 prediction web
+                application integrating deep learning models.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section id="education" className="mt-12 rounded-3xl bg-white p-8 ring-1 ring-slate-200">
+          <h2 className="text-2xl font-bold">Education</h2>
+          <div className="mt-6 grid gap-6 md:grid-cols-2">
+            <article>
+              <h3 className="text-lg font-semibold">
+                Master of Technology, Indian Statistical Institute
+              </h3>
+              <p className="text-sm text-slate-600">2019 - 2021</p>
+              <p className="mt-3 text-sm leading-6 text-slate-700">
+                Percentage: 77.45
+              </p>
+            </article>
+            <article>
+              <h3 className="text-lg font-semibold">
+                Bachelor of Technology, Bundelkhand Institute of Engineering &amp; Technology
+              </h3>
+              <p className="text-sm text-slate-600">2015 - 2019</p>
+              <p className="mt-3 text-sm leading-6 text-slate-700">
+                Percentage: 71.82
               </p>
             </article>
           </div>
