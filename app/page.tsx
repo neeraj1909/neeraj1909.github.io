@@ -182,7 +182,7 @@ export default function Home() {
           </div>
           <div className="justify-self-start md:justify-self-end">
             <Image
-              src="/img/neeraj1.jpg"
+              src="/img/github-avatar.jpg"
               alt="Portrait of Neeraj Kumar Singh"
               width={280}
               height={280}
