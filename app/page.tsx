@@ -19,39 +19,58 @@ const profileLinks: LinkItem[] = [
 
 const projects: Project[] = [
   {
-    title: "Django PayTM Payment",
-    period: "2018 - Present",
+    title: "rag_chatbot",
+    period: "Recent",
     summary:
-      "Integrated PayTM payment flows in Django to support secure checkout and robust transaction lifecycle handling.",
+      "RAG chatbot built with FastAPI and LangChain for retrieval-augmented question answering.",
     impact:
-      "Demonstrated production-focused API integration and backend reliability patterns.",
-    href: "https://github.com/neeraj1909/django-paytm-payment",
+      "Demonstrates practical GenAI system integration using modern LLM tooling and API serving.",
+    href: "https://github.com/neeraj1909/rag_chatbot",
   },
   {
-    title: "Twitter Sentiment Analysis",
-    period: "2018 - 2019",
+    title: "safespeech-indic-hate-mitigation",
+    period: "Recent",
     summary:
-      "Built a Python pipeline around Twitter APIs for sentiment classification and trend-level text analysis.",
+      "SafeSpeech pipeline for Indic hate intensity classification, explanation, and mitigation suggestions.",
     impact:
-      "Established end-to-end data collection, preprocessing, and model experimentation workflow.",
+      "Shows responsible AI workflow design for safety-critical social text moderation tasks.",
+    href: "https://github.com/neeraj1909/safespeech-indic-hate-mitigation",
+  },
+  {
+    title: "twitter_sentimental_analysis",
+    period: "Recent",
+    summary:
+      "Sentiment analysis pipeline for topic-based tweet streams using Python and Twitter API data.",
+    impact:
+      "Implements full NLP flow from data collection to sentiment classification and reporting.",
     href: "https://github.com/neeraj1909/twitter_sentimental_analysis",
   },
   {
-    title: "Quiz Web Platform",
-    period: "2018",
+    title: "healthcare_fraud_classification",
+    period: "Recent",
     summary:
-      "Developed a Django-based quiz platform with quiz creation, participation, and scoring flows.",
+      "End-to-end healthcare fraud detection pipeline using claims, beneficiary, and provider datasets.",
     impact:
-      "Strengthened full-stack delivery and user-flow oriented backend design skills.",
-    href: "https://github.com/neeraj1909/quiz",
+      "Benchmarks multiple ML models (RF, LightGBM, DT, SVM, ANN) for fraud-risk classification.",
+    href: "https://github.com/neeraj1909/healthcare_fraud_classification",
   },
   {
-    title: "Saleor Open Source Contribution",
-    period: "2018",
+    title: "IC50",
+    period: "Recent",
     summary:
-      "Contributed to Saleor (Django ecommerce) as part of internship-driven OSS exploration.",
-    impact: "Hands-on collaboration with real-world code review and external codebase standards.",
-    href: "https://github.com/mirumee/saleor/pull/3079",
+      "Repository for IC50-related experimentation and predictive modeling workflow.",
+    impact:
+      "Represents domain-specific ML experimentation and applied model development practices.",
+    href: "https://github.com/neeraj1909/IC50",
+  },
+  {
+    title: "quiz_app",
+    period: "Recent",
+    summary:
+      "Quiz application project focused on interactive quiz flows and backend-driven score handling.",
+    impact:
+      "Demonstrates full-stack implementation skills for user-oriented assessment products.",
+    href: "https://github.com/neeraj1909/quiz_app",
   },
 ];
 
