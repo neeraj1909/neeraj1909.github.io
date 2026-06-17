@@ -19,58 +19,58 @@ const profileLinks: LinkItem[] = [
 
 const projects: Project[] = [
   {
-    title: "rag_chatbot",
-    period: "Recent",
+    title: "XAI-RAG",
+    period: "Dec 2025 - Mar 2026",
     summary:
-      "RAG chatbot built with FastAPI and LangChain for retrieval-augmented question answering.",
+      "Explainable retrieval-augmented generation system with hybrid search, retrieval attribution, and streaming FastAPI endpoints.",
     impact:
-      "Demonstrates practical GenAI system integration using modern LLM tooling and API serving.",
-    href: "https://github.com/neeraj1909/rag_chatbot",
+      "Combines ChromaDB, Elasticsearch, RRF, BGE re-ranking, DeBERTa NLI faithfulness checks, RAGAS, OpenTelemetry, Redis, and SSE delivery.",
+    href: "https://github.com/neeraj1909/xai-rag",
   },
   {
-    title: "safespeech-indic-hate-mitigation",
-    period: "Recent",
+    title: "Indic Research Agent",
+    period: "2026",
     summary:
-      "SafeSpeech pipeline for Indic hate intensity classification, explanation, and mitigation suggestions.",
+      "Public research assistant with Chainlit UI, LangGraph orchestration, LiteLLM model access, and typed search tools.",
     impact:
-      "Shows responsible AI workflow design for safety-critical social text moderation tasks.",
-    href: "https://github.com/neeraj1909/safespeech-indic-hate-mitigation",
+      "Uses query-kit provider search, PostgreSQL persistence, Redis caching, and streamed progress updates for research workflows.",
+    href: "https://github.com/neeraj1909/indic-research-agent",
   },
   {
-    title: "twitter_sentimental_analysis",
-    period: "Recent",
+    title: "query-kit",
+    period: "2026",
     summary:
-      "Sentiment analysis pipeline for topic-based tweet streams using Python and Twitter API data.",
+      "Provider-agnostic Python CLI and library for searching public research sources with normalized text and JSON output.",
     impact:
-      "Implements full NLP flow from data collection to sentiment classification and reporting.",
-    href: "https://github.com/neeraj1909/twitter_sentimental_analysis",
+      "Covers ACL Anthology, arXiv, PubMed, Semantic Scholar, and OpenReview with deduplication, filtering, and sync/async APIs.",
+    href: "https://github.com/neeraj1909/query-kit",
   },
   {
-    title: "healthcare_fraud_classification",
-    period: "Recent",
+    title: "Explainable Agentic RAG",
+    period: "2026",
     summary:
-      "End-to-end healthcare fraud detection pipeline using claims, beneficiary, and provider datasets.",
+      "LangGraph workflow with typed tools, structured outputs, retrieval attribution, verifier/retry loops, and human review.",
     impact:
-      "Benchmarks multiple ML models (RF, LightGBM, DT, SVM, ANN) for fraud-risk classification.",
-    href: "https://github.com/neeraj1909/healthcare_fraud_classification",
+      "Evaluates faithfulness, context precision and recall, factual correctness, latency, and tool-call behavior for trustworthy RAG.",
+    href: "https://github.com/neeraj1909/explainable-agentic-rag",
   },
   {
-    title: "IC50",
-    period: "Recent",
+    title: "DLBacktrace",
+    period: "2024 - 2026",
     summary:
-      "Repository for IC50-related experimentation and predictive modeling workflow.",
+      "Model-agnostic interpretability framework for relevance tracing across MLPs, LLMs, and custom deep networks.",
     impact:
-      "Represents domain-specific ML experimentation and applied model development practices.",
-    href: "https://github.com/neeraj1909/IC50",
+      "Benchmarked against SHAP, LIME, and Integrated Gradients; extended in production work for transformer and MoE attribution.",
+    href: "https://ieeexplore.ieee.org/document/11228632",
   },
   {
-    title: "quiz_app",
-    period: "Recent",
+    title: "SafeSpeech",
+    period: "Published",
     summary:
-      "Quiz application project focused on interactive quiz flows and backend-driven score handling.",
+      "Indic hate-speech mitigation pipeline for classification, explanation, and intensity-reduction suggestions.",
     impact:
-      "Demonstrates full-stack implementation skills for user-oriented assessment products.",
-    href: "https://github.com/neeraj1909/quiz_app",
+      "Validated across five Indic languages with BERTScore results in the 0.96-0.99 range for mitigation quality.",
+    href: "https://link.springer.com/article/10.1007/s13278-024-01393-9",
   },
 ];
 
@@ -81,6 +81,7 @@ const writingAndTalks: LinkItem[] = [
 ];
 
 const navigation = [
+  { id: "about", label: "About" },
   { id: "projects", label: "Projects" },
   { id: "research", label: "Research" },
   { id: "writing", label: "Writing" },
@@ -152,12 +153,12 @@ export default function Home() {
               AI Engineer Portfolio
             </p>
             <h1 className="mt-3 text-4xl font-bold leading-tight md:text-5xl">
-              Building reliable LLM and ML systems for real-world use.
+              Building explainable LLM, RAG, and agent systems for real-world use.
             </h1>
             <p className="mt-5 max-w-2xl text-base leading-7 text-slate-700" id="main-content">
-              I am Neeraj Kumar Singh, an AI engineer with a computer science background from
-              ISI Kolkata. My focus is applied GenAI, model-driven product features, and
-              engineering workflows that move from research prototypes to usable software.
+              I am Neeraj Kumar Singh, an Applied AI / LLM engineer with 4+ years across
+              NLP, explainable AI, model interpretability, production-oriented RAG systems,
+              and backend AI tooling.
             </p>
             <div className="mt-7 flex flex-wrap gap-3">
               {profileLinks.map((item) => (
@@ -171,12 +172,12 @@ export default function Home() {
                 </ExtLink>
               ))}
               <a
-                href="/resume/llm_genai_engineer_cv.pdf"
-                data-track-label="hero_download_cv"
+                href="/resume/neeraj_resume_1page.pdf"
+                data-track-label="hero_download_resume"
                 className="rounded-full bg-cyan-700 px-4 py-2 text-sm font-semibold text-white transition hover:bg-cyan-800"
                 download
               >
-                Download CV
+                Download Resume
               </a>
             </div>
           </div>
@@ -189,6 +190,27 @@ export default function Home() {
               priority
               className="rounded-3xl border border-slate-200 object-cover"
             />
+          </div>
+        </section>
+
+        <section id="about" className="mt-12 rounded-3xl bg-white p-8 ring-1 ring-slate-200">
+          <h2 className="text-2xl font-bold">About</h2>
+          <div className="mt-5 grid gap-6 md:grid-cols-[1.4fr_1fr]">
+            <p className="text-sm leading-6 text-slate-700">
+              I work at the intersection of applied LLMs, trustworthy AI, and production
+              engineering. My recent work includes LLM attribution, retrieval evaluation,
+              agent workflows, and Python/PyTorch/FastAPI tooling that turns research ideas
+              into usable systems.
+            </p>
+            <div className="rounded-2xl bg-slate-50 p-5 ring-1 ring-slate-200">
+              <p className="text-xs font-semibold uppercase tracking-wider text-slate-500">
+                Core stack
+              </p>
+              <p className="mt-3 text-sm leading-6 text-slate-700">
+                Python, PyTorch, FastAPI, LangGraph, LangChain, Hugging Face, PostgreSQL,
+                Redis, ChromaDB, Elasticsearch, OpenTelemetry, and RAGAS.
+              </p>
+            </div>
           </div>
         </section>
 
@@ -228,9 +250,9 @@ export default function Home() {
           <h2 className="text-2xl font-bold">Research and Technical Focus</h2>
           <div className="mt-6 grid gap-5 md:grid-cols-3">
             {[
-              "LLM application design and prompt-driven product features",
-              "Deep learning systems: ANN, CNN, ResNet, and ResNeXt implementation",
-              "Backend-heavy ML product delivery with Python and Django",
+              "LLM attribution and explainability for transformers, LLaMA-family models, and Mixture-of-Experts architectures",
+              "RAG and agent systems with hybrid search, retrieval attribution, verifier loops, and quality metrics",
+              "Backend AI delivery with Python, FastAPI, async APIs, tracing, persistence, caching, and deployment-ready tooling",
             ].map((item) => (
               <article key={item} className="rounded-xl border border-slate-200 bg-slate-50 p-5">
                 <p className="text-sm leading-6 text-slate-700">{item}</p>
@@ -268,8 +290,8 @@ export default function Home() {
               <p className="text-sm text-slate-600">April 2024 - Present</p>
               <p className="mt-3 text-sm leading-6 text-slate-700">
                 Shipped DLBacktrace v2 for explainability across tabular, vision, NLP, and LLM
-                workloads; expanded transformer and MoE support, and improved inference efficiency
-                through relevance quantization and optimized tracing pipelines.
+                workloads; expanded transformer and MoE support, compressed attribution traces
+                17-93x with low error, and built scalable visualization and trace-storage tooling.
               </p>
             </article>
             <article>
