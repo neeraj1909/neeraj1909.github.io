@@ -172,7 +172,7 @@ export default function Home() {
                 </ExtLink>
               ))}
               <a
-                href="/resume/neeraj_resume_1page.pdf"
+                href="/resume/neeraj_AI_Engineer_Resume.pdf"
                 data-track-label="hero_download_resume"
                 className="rounded-full bg-cyan-700 px-4 py-2 text-sm font-semibold text-white transition hover:bg-cyan-800"
                 download
